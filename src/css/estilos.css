@@ -1,0 +1,153 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(60deg, rgba(0,0,0,1) 18%, rgba(200,145,22,1) 78%);
+}
+
+.img-primeiro {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.imagem-primeiro {
+    display: flex;
+    height: 350px;
+}
+
+.conteudo-primeiro {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+
+.conteudo-primeiro .titulo-primeiro {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Cardo';
+    color: white;
+}
+
+.conteudo-primeiro .texto-primeiro {
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    font-size: 22px;
+    font-family: 'TenorSans';
+    color: white;
+    width: 1212px;
+    height: 117px;
+    text-align: center;
+}
+
+.img-segundo {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.imagem-segundo {
+    display: flex;
+    height: 350px;
+}
+
+.conteudo-segundo {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+}
+
+.conteudo-segundo .titulo-segundo {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Cardo';
+    color: white;
+}
+
+.conteudo-segundo .texto-segundo {
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    font-size: 22px;
+    font-family: 'TenorSans';
+    color: white;
+    width: 1212px;
+    height: 117px;
+    text-align: center;
+}
+
+.img-terceiro {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.imagem-terceiro {
+    display: flex;
+    height: 350px;
+}
+
+.conteudo-terceiro {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+
+.conteudo-terceiro .titulo-terceiro {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    font-family: 'Cardo';
+}
+
+.conteudo-terceiro .texto-terceiro {
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    color: white;
+    font-size: 22px;
+    font-family: 'TenorSans';
+    width: 1212px;
+    height: 117px;
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+.link-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Cardo';
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 18%, rgba(200,145,22,1) 78%);
+    border-radius: 100px;
+    width: 500px;
+}
+
+hr {
+    overflow: visible; 
+    padding: 0;
+    border: none;
+    border-top: medium double #000000;
+    color: #000000;
+    text-align: center;
+}
